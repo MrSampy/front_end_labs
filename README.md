@@ -17,7 +17,7 @@
   <tr>
     <td>№2</td>
     <td>Мова гіпертекстової розмітки сайту HTML-5. Таблиці. Каскадна таблиця стилів CSS-3</td>
-    <td><a>Переглянути</a></td>
+    <td><a href="https://mrsampy.github.io/front_end_labs/Lab2/">Переглянути</a></td>
   </tr>
   <tr>
     <td>№3</td>
