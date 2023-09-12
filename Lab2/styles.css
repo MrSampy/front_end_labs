@@ -1,0 +1,88 @@
+.bigRectangle {
+  margin-top:20px;
+  width: 250px;
+  height: 500px;
+  background-color: #d6e3bc;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin:20px;
+}
+.smallRectangle{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  top: 20px;
+  width: 200px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+.centerText{
+  font-family: Calibri, "Times New Roman";
+  position: relative;
+  text-align: center;
+  font-size: 450%;
+  padding-top:40%;
+  padding-bottom: 50%;
+}
+.oval {
+  height: 40px;
+  width: 50px;
+  margin:7px;
+  background-color: #3f3151;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.allButtons {
+  margin: auto;
+}
+.threeButtons{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bigRectangleTransformStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 250px;
+  height: 500px;
+  background-color: #d6e3bc;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin:20px;
+}
+.smallRectangleTransformStyle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 23px auto 0px auto;
+  width: 200px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 3px solid black;
+  font-family: Calibri, "Times New Roman";
+  font-size: 450%;
+}
+.ovalTransformStyle {
+  height: 40px;
+  width: 50px;
+  margin: 7px;
+  background-color: #3f3151;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.allButtonsTransformStyle {
+  margin: 10px auto auto auto;
+  display: flex;
+  flex-direction: column;
+}
+.threeButtonsTransformStyle{
+  display: flex;
+}
+.photosCSS{
+  display: flex;
+}
