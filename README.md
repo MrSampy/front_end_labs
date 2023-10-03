@@ -22,7 +22,7 @@
   <tr>
     <td>№3</td>
     <td>Блочна верстка макету сайту за допомогою HTML і CSS</td>
-    <td><a>Переглянути</a></td>
+    <td><a href="https://mrsampy.github.io/front_end_labs/Lab3/">Переглянути</a></td>
   </tr>
   <tr>
     <td>№4</td>
