@@ -9,26 +9,26 @@ body{
 }
 .header{
   background-color: #70a7df;
-  height:100px;
+  height: 15vh;
   position: relative;
 }
 .under_header{
   background-color: #fac0f6;
-  height:75px;
+  height: 10vh;
   position: relative;
 }
 .main_image{
   background-color: #bce68b;
   float: right;
   width:25%;
-  height:525px;
+  height: 75vh;
   position: relative;
 }
 .menu{
   background-color: #93b071;
     float: left;
     width:75%;
-    height:525px;
+  height: 75vh;
   position: relative;
 }
 .text_in_part{
