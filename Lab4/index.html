@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>Колосов С.В. ІМ-12</title>
+      <meta charset="UTF-8">
+  <meta name="description" content="Fourth Lab">
+  <meta name="keywords" content="Front-End Fourth Lab">
+  <meta name="author" content="Serhii Kolosov">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<h2>Колосов Сергій Вікторович</h2> <!-- 1 -->
+<p>Боті́єве — село в Україні, у Приазовській селищній громаді Мелітопольського району Запорізької області.</p><!-- 2 -->
+<p>Освіта:
+Ботіївська ЗОШ І-ІІІ ступенів;<br><!-- 3 -->
+КПІ ім. Ігоря Сікорського;</p><!-- 4 -->
+<div>Хоббі:</div><!-- 5 -->
+<ul><!-- 6 -->
+  <li id="coding" onclick="ChangeColorAndTextUsingElements()">Кодінг</li><!-- 7 -->
+  <li class="debugging" onclick="ChangeColorAndTextUsingQuery()">Дебагінг</li><!-- 8 -->
+  <li>Породження багів</li>
+</ul>
+
+<div>Улюблені фільми:</div>
+<ol>
+  <li>Зелений слоник</li>
+  <li>Зелений слоник 2</li>
+  <li>Зелений слоник 3</li>
+</ol>
+
+<p>
+  Моє улюблене місто в Україні - це Львів. Ця давня культурна столиця завжди зачаровує своєю архітектурною красою та атмосферою. Вуличні кав'ярні, величні площі та багатий культурний спадок роблять Львів неймовірною ділянкою для відкриття та вивчення.
+</p>
+<div class="imgPart">
+  <a href="https://es.uefa.com/uefaeuro/history/news/0254-0d7c9755d3b0-ecd25518062c-1000--lviv-city-guide/">
+    <div id="imagesList">
+       <img class="innerImg" src="Lviv.avif" alt="Lviv">
+    </div>
+  </a>
+  <div class="buttons">
+    <button class="customButton" onclick="AddImg()">Додати</button>
+    <input type="file" id="fileInput" onchange="UpdateImages()" accept=".jpg, .jpeg, .png" style="display: none;">
+    <button class="customButton" onclick="IncreaseImg()">Збільшити</button>
+    <button class="customButton" onclick="DecreaseAddImg()">Зменшити</button>
+    <button class="customButton" onclick="RemoveImg()">Видалити</button>
+  </div>
+</div>
+</body>
+</html>

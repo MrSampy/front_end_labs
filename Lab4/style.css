@@ -1,0 +1,14 @@
+#coding{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.debugging{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.innerImg{
+    width: 800px;
+    height: auto;
+}
