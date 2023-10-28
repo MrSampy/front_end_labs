@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>Колосов С.В. ІМ-12</title>
+      <meta charset="UTF-8">
+  <meta name="description" content="Fifth Lab">
+  <meta name="keywords" content="Front-End Fifth Lab">
+  <meta name="author" content="Serhii Kolosov">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="firstTask">
+    <form action="" method="get" class="form-example">
+      <h1>Форма для заповнення</h1>
+      <label for="name"></label><input type="text" id="name" onfocus="clearInvalidClass(this)" placeholder="ПІБ"/>
+      <label for="birth"></label><input type="text" id="birth" onfocus="clearInvalidClass(this)" placeholder="Дата народження"/>
+      <label for="address"></label><input type="text" id="address" onfocus="clearInvalidClass(this)" placeholder="Адреса"/>
+      <label for="email"></label><input type="text" id="email" onfocus="clearInvalidClass(this)" placeholder="Пошта"/>
+      <label for="telegram"></label><input type="text" id="telegram" onfocus="clearInvalidClass(this)" placeholder="Телеграм"/>
+      <div class="button" onclick="validateAndShowInfo()">Підтвердити</div>
+    </form>
+    <div class="inputData">
+      <h1>Введені дані:</h1>
+      <div class="inputField">
+        <h3>ПІБ:&nbsp;</h3>
+        <div id="nameField"></div>
+      </div>
+      <div class="inputField">
+        <h3>Дата народження:&nbsp;</h3>
+        <div id="birthField"></div>
+      </div>
+      <div class="inputField">
+        <h3>Адреса:&nbsp;</h3>
+        <div id="addressField"></div>
+      </div>
+      <div class="inputField">
+        <h3>Пошта:&nbsp;</h3>
+        <div id="emailField"></div>
+      </div>
+      <div class="inputField">
+        <h3>Телеграм:&nbsp;</h3>
+        <div id="telegramField"></div>
+      </div>
+    </div>
+  </div>
+  <div class="secondTask">
+    <input type="color" id="colorPicker" style="display: none;" onchange="applyBackgroundColor(this)">
+    <div id="table-container">
+    </div>
+  </div>
+</body>
+</html>

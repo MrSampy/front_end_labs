@@ -1,0 +1,103 @@
+.form-example{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.form-example input{
+    margin: 5px;
+    width: 300px;
+    height: 15px;
+}
+
+.firstTask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.inputData h1{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.inputField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.inputField h3{
+    margin: 0;
+}
+.invalid {
+    border: 2px solid red;
+    background-color: #ffeeee;
+}
+
+.button {
+    display: inline-block;
+    padding: 3px 5px;
+    background-color: #f4f4f6;
+    color: #afa9a5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 300px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+.secondTask{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.second-task-table {
+    border-collapse: collapse;
+}
+
+.second-task-td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.second-task-td-variant {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.color-picker-box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db; /* Default background color */
+    color: #ffffff;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+}
+
+#colorPicker {
+    display: none;
+}
+
+
+#variant-td{
+}
+.td-rect{
+
+}
