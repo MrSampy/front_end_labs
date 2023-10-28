@@ -1,0 +1,55 @@
+body{
+    background-color: #808080;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: auto;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #505357;
+}
+#successText{
+    font-size: 300%;
+    color: #35393d;
+    display: none;
+}
+#users{
+    display: flex;
+    justify-content: space-around;
+    background-color: #343a40;
+    font-size: 150%;
+    color: white;
+}
+.user{
+    border: solid 1px black;
+    width: 20vw;
+}
+.user-img{
+    display: flex;
+}
+.user-img img{
+    width: 20vw;
+    height: auto;
+}
+.user-info{
+}
+.user-info-block{
+    padding: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
