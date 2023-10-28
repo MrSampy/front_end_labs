@@ -32,7 +32,7 @@
   <tr>
     <td>№5</td>
     <td>JavaScript. Події. Регулярні вирази</td>
-    <td><a>Переглянути</a></td>
+    <td><a href="https://mrsampy.github.io/front_end_labs/Lab5/">Переглянути</a></td>
   </tr>
   <tr>
     <td>№6</td>
