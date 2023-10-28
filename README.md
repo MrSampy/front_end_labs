@@ -37,7 +37,7 @@
   <tr>
     <td>№6</td>
     <td>JavaScript. Формат JSON. API. Отримання даних із зовнішньої сторінки (fetch, promise)</td>
-    <td><a>Переглянути</a></td>
+    <td><a href="https://mrsampy.github.io/front_end_labs/Lab6/">Переглянути</a></td>
   </tr>
   <tr>
     <td>№7</td>
