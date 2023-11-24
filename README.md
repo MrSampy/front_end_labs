@@ -42,7 +42,7 @@
   <tr>
     <td>№7</td>
     <td>Робота з React.JS. Створення та робота з компонентами. Робота з props.</td>
-    <td><a>Переглянути</a></td>
+    <td><a href="https://mrsampy.github.io/front_end_labs_lab7/">Переглянути</a></td>
   </tr>
   <tr>
     <td>№8</td>
