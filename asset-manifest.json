@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.af2aa04b.css",
-    "main.js": "/react-gh-pages/static/js/main.0eb80523.js",
-    "static/js/787.daf3cb9a.chunk.js": "/react-gh-pages/static/js/787.daf3cb9a.chunk.js",
-    "static/media/apple.png": "/react-gh-pages/static/media/apple.3ef50f62c13d4b6f2b89.png",
-    "static/media/strawberry.jpg": "/react-gh-pages/static/media/strawberry.45a513e7814997f87556.jpg",
-    "static/media/Lviv.avif": "/react-gh-pages/static/media/Lviv.b1e451c1defedf11e585.avif",
-    "static/media/orange.jpg": "/react-gh-pages/static/media/orange.42be660e8ab2dadf153e.jpg",
-    "static/media/pear.jpg": "/react-gh-pages/static/media/pear.974cc20b43576ebea96d.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.af2aa04b.css.map": "/react-gh-pages/static/css/main.af2aa04b.css.map",
-    "main.0eb80523.js.map": "/react-gh-pages/static/js/main.0eb80523.js.map",
-    "787.daf3cb9a.chunk.js.map": "/react-gh-pages/static/js/787.daf3cb9a.chunk.js.map"
+    "main.css": "/front_end_labs/lab7/public/static/css/main.af2aa04b.css",
+    "main.js": "/front_end_labs/lab7/public/static/js/main.cf2f3221.js",
+    "static/js/787.daf3cb9a.chunk.js": "/front_end_labs/lab7/public/static/js/787.daf3cb9a.chunk.js",
+    "static/media/apple.png": "/front_end_labs/lab7/public/static/media/apple.3ef50f62c13d4b6f2b89.png",
+    "static/media/strawberry.jpg": "/front_end_labs/lab7/public/static/media/strawberry.45a513e7814997f87556.jpg",
+    "static/media/Lviv.avif": "/front_end_labs/lab7/public/static/media/Lviv.b1e451c1defedf11e585.avif",
+    "static/media/orange.jpg": "/front_end_labs/lab7/public/static/media/orange.42be660e8ab2dadf153e.jpg",
+    "static/media/pear.jpg": "/front_end_labs/lab7/public/static/media/pear.974cc20b43576ebea96d.jpg",
+    "index.html": "/front_end_labs/lab7/public/index.html",
+    "main.af2aa04b.css.map": "/front_end_labs/lab7/public/static/css/main.af2aa04b.css.map",
+    "main.cf2f3221.js.map": "/front_end_labs/lab7/public/static/js/main.cf2f3221.js.map",
+    "787.daf3cb9a.chunk.js.map": "/front_end_labs/lab7/public/static/js/787.daf3cb9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af2aa04b.css",
-    "static/js/main.0eb80523.js"
+    "static/js/main.cf2f3221.js"
   ]
 }
