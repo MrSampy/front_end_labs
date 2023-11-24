@@ -1,0 +1,30 @@
+#coding{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.debugging{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.innerImg{
+  width: 800px;
+  height: auto;
+}
+
+.goodImg{
+  width: 200px;
+  height: 200px;
+}
+#goodsList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.goodName{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #39c2ef;
+  text-align: center;
+  font-weight: bold;
+}
