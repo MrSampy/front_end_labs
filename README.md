@@ -47,6 +47,6 @@
   <tr>
     <td>№8</td>
     <td>Верстка сайту за допомогою HTML-5 і CSS-3 за зразком</td>
-    <td><a href="https://mrsampy.github.io/Lab8/">Переглянути</a></td>
+    <td><a href="https://mrsampy.github.io/front_end_labs/Lab8/">Переглянути</a></td>
   </tr>
 </table>
