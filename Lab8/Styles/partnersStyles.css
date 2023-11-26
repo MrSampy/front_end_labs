@@ -1,0 +1,98 @@
+.partners{
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #393939;
+}
+.partnersTitle{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.achievements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.achievementsBigText{
+    font-weight: bold;
+    font-size: 260%;
+    color: black;
+}
+.achievementsSmallText{
+    padding: 5px;
+    font-size:80%;
+}
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brands div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px;
+}
+.brandImg{
+    width: 50%;
+    filter: grayscale(100%);
+}
+
+.mainFood{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 100px;
+
+}
+
+.mainFoodBigImg{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.foodTextChoice{
+    width: 75%;
+    padding: 20px 50px 20px 20px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+.foodTextChoice:hover{
+    background-color: #FF926B;
+    cursor: pointer;
+}
+.foodTextChoiceTitle{
+    font-weight: bold;
+    font-size: 120%;
+    padding-bottom: 5px;
+}
+
+.foodTextChoiceContent{
+    line-height: 1.5;
+}
+@media (min-width: 576px) {
+    .foodChoice {
+        width: 80%;
+    }
+}
+@media (min-width: 992px) {
+    .partnersTitle {
+        padding-top: 100px;
+    }
+
+    .foodTextChoice {
+        width: 60%;
+    }
+}
+@media (min-width: 1200px) {
+
+    .footerImg {
+        width: 30%;
+    }
+
+    .footer {
+        margin: 5% 0;
+    }
+
+}

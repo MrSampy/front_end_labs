@@ -1,0 +1,50 @@
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.watermark{
+    font-size: 150%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watermarkDot{
+    color: #FF926B;
+}
+.headerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerButtons div{
+    padding: 0 10px;
+}
+.headerButtons div:hover{
+    color: #FF926B;
+    cursor: pointer;
+}
+.dropDown i{
+    padding-left: 5px;
+    font-size: 13px;
+}
+.templates div{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    background-color: #FF926B;
+}
+.templates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 992px) {
+    .headerButtons div {
+        padding: 0 20px;
+    }
+}
+

@@ -1,0 +1,134 @@
+.alphaOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alpha{
+    width: 70%;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+.alphaButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alphaHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: #F5F5F5;
+}
+.alphaWatermark{
+    color: black;
+    font-size: 130%;
+    font-weight: bold;
+}
+.colorlib div{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    background-color: black;
+}
+.colorlib{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alphaMain{
+    margin: 30px 0 0 0;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background: url('../Images/Alpha/buildings.jpg') bottom center no-repeat;
+    background-size: 100% 85%;
+}
+
+.alphaQuote{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.quoteText{
+    font-size: 280%;
+}
+.quoteAuthor{
+    margin-top: 10px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.authorImg{
+    width: 20%;
+    border-radius: 50px;
+    margin: 0 10px 0 0;
+}
+
+.anotherAlphaQuote{
+    border: solid black;
+    width: 20%;
+    height: 35%;
+    padding: 30px;
+    position: relative;
+}
+.anotherQuoteSmallText{
+
+}
+
+.anotherQuoteBigText{
+    font-size: 130%;
+    margin-bottom: 25px;
+}
+
+.quoteBlackButton{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #FFFFFF;
+    background-color: black;
+    width: 30%;
+    padding: 10px;
+}
+
+.alphaFooter{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 0;
+
+}
+.alphaFooter div{
+    margin: 15px 15px 15px 0;
+}
+
+.alphaFooter .grayRound{
+    margin: 2px;
+}
+.grayRound{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #ebebeb;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grayRound i{
+    font-size: 13px;
+}
+
+@media (max-width: 1100px) {
+    .anotherQuoteSmallText {
+        font-size: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .anotherQuoteSmallText {
+        font-size: 70%;
+    }
+}

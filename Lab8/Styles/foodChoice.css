@@ -1,0 +1,46 @@
+.foodChoice{
+    width: 70%;
+    background-color: black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 10px 50px;
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+.foodChoiceTitle{
+    font-size: 200%;
+    margin: 100px 0 50px 0;
+    width: 50%;
+}
+.foodChoiceList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foodChoiceButton{
+    background-color: #FF926B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 50px 0 70px 0;
+}
+.foodChoiceItem{
+    width: 30%;
+}
+.foodChoiceItem div{
+    text-align: left;
+}
+.foodChoiceItemTitle{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.foodChoiceItemSmallText{
+    font-size: 80%;
+    color: #ebebeb;
+}
+.food{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,63 @@
+.timeMenu{
+    background-color: #F8F9FB;
+    padding: 20px 0;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    line-height: 1.5;
+}
+.timeMenuTitle{
+    font-size: 200%;
+    width: 30%;
+    text-align: center;
+    margin: 8% 8% 2% 8%;
+}
+.timeMenuList{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.timeMenuItem{
+    width: 20%;
+    padding: 3% 1% 2% 1%;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.timeMenuItem:hover{
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+.timeMenuItem:hover .timeMenuButton{
+    color: #FF926B;
+ }
+.timeMenuImg{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.timeMenuItemTitle{
+    font-weight: bold;
+}
+.timeMenuContent{
+
+}
+.timeMenuButton{
+    margin: 70px 0 0 0;
+}
+@media (min-width: 768px) {
+    .timeMenu {
+        padding: 50px 0;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .timeMenuTitle {
+        width: 60%;
+    }
+}
+
